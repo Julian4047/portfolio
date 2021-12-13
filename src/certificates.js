@@ -24,5 +24,5 @@ const bdCertificates = [{
     },
 ];
 bdCertificates.forEach(function(infobdce) {
-    document.write('<fieldset><legend>' + infobdce.name + '</legend><a class="s2card" href="' + infobdce.url + '" id="card-' + infobdce.id + '"><style>#card-' + infobdce.id + ' {background-image: url(' + infobdce.img + ');background-size: cover;);}</style></a></fieldset>');
+    document.write('<fieldset><legend>' + infobdce.name + '</legend><a class="s2card" href="' + infobdce.url + '" id="card-' + infobdce.id + '"><style>#card-' + infobdce.id + ' {background-image: url(' + infobdce.img + ');background-size: cover;background-position:center;);}</style></a></fieldset>');
 });

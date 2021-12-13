@@ -32,5 +32,5 @@ const bdProjects = [{
 
 ];
 bdProjects.forEach(function(infop) {
-    document.write('<a class="s2card" href="' + infop.url + '" id="card-' + infop.id + '"><style>#card-' + infop.id + ' {background-image: url(' + infop.img + ');background-size: cover;);}</style></a>');
+    document.write('<a class="s2card" href="' + infop.url + '" id="card-' + infop.id + '"><style>#card-' + infop.id + ' {background-image: url(' + infop.img + ');background-size: cover;background-position:center;}</style></a>');
 });
