@@ -24,12 +24,15 @@ const bdProjects = [{
         url: "https://saveyourbooks.vercel.app/"
     },
     {
+        id: 12,
+        img: "/img/12.jpg",
+        url: "https://counter-react-app-two.vercel.app/"
+    },
+    {
         id: 5,
         img: "/img/6.jpg",
         url: "index.html"
     },
-
-
 ];
 bdProjects.forEach(function(infop) {
     document.write('<a class="s2card" href="' + infop.url + '" id="card-' + infop.id + '"><style>#card-' + infop.id + ' {background-image: url(' + infop.img + ');background-size: cover;background-position:center;}</style></a>');
